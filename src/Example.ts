@@ -1,19 +1,14 @@
 'use strict';
 
-import { Logger } from 'sitka';
+import { ILogger } from './logger/ILogger';
 
 export class Example {
-	/* Private Instance Fields */
 
-	private _logger: Logger;
+	private _logger: ILogger;
 
-	/* Constructor */
-
-	constructor() {
-		this._logger = Logger.getLogger({ name: this.constructor.name });
+	constructor(logger: ILogger) {
+		this._logger = logger;
 	}
-
-	/* Public Instance Methods */
 
 	public exampleMethod(param: string): string {
 		this._logger.debug('Received: ' + param);

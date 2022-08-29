@@ -33,7 +33,7 @@ Once you've enabled CI, test coverage, and dependency reports for your project, 
 
 ## Project Creation
 
-Clone this repo into the directory you want to use for your new project, delete the Git history, and then reinit as a fresh Git repo:
+Clone this repo into the directory you want to use for your new project, delete the Git history, and then re-init as a fresh Git repo:
 
 ```bash
 $ git clone https://github.com/JoseRodrigues443/node-typescript-template.git <your project directory>
@@ -51,7 +51,7 @@ Be sure to check both [GitHub](https://github.com) and [NPMJS](https://www.npmjs
 
 Use exact searches to perform the following replacements throughout this project for the most efficient rebranding process:
 
-1. Replace my name with yours: `Chris Wells`
+1. Replace my name with yours: `Miguel Rodrigues`
 2. Replace my website URL with yours: `https://chriswells.io`
 3. Replace my *GitHub* username and project name with yours: `chriswells0/node-typescript-template`
 4. Replace my *NPM* project name with yours: `typescript-template`

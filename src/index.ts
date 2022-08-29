@@ -1,9 +1,16 @@
 import { Example } from "./Example";
+import { ILogger } from "./logger/ILogger";
+import { Logger } from "./logger/Logger";
 
-console.log("Starting...");
+/**
+ * @TODO Consider more advanced Dependency Injection options
+ */
+const logger: ILogger = new Logger();
 
-const example: Example = new Example();
+logger.info("Starting...");
+
+const example: Example = new Example(logger);
 const param = 'This is my param.';
-console.log(`Example output: ${example.exampleMethod(param)}`)
+logger.info(`Example output: ${example.exampleMethod(param)}`)
 
-console.log("Ending...");
+logger.info("Ending...");
