@@ -36,9 +36,11 @@
     "console": "npx ts-node src/index.ts",
     "test": "mocha -r ts-node/register tests/**/*.ts",
     "upgrade": "npx npm-check -u",
-    "version": "npm run build && npm run changelog:update"
+    "version": "npm run build && npm run changelog:update",
+    "commit": "cz"
   },
   "devDependencies": {
+    "commitizen": "^4.2.5",
     "@faker-js/faker": "^7.4.0",
     "@types/chai": "^4.1.6",
     "@types/mocha": "^9.0.0",
