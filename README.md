@@ -16,6 +16,7 @@ A complete Node.js project template using TypeScript and following general best 
 * Setting up unit tests and code coverage reports.
 * Creating an NPM package for your project.
 * Managing ignored files for Git and NPM.
+* Git Hooks using husky
 
 Once you've enabled CI, test coverage, and dependency reports for your project, this README.md file shows how to add the badges shown above.  This project template even enables automated changelog generation as long as you follow [Conventional Commits](https://conventionalcommits.org), which is made simple through the included [Commitizen CLI](http://commitizen.github.io/cz-cli/).
 
@@ -26,6 +27,7 @@ Once you've enabled CI, test coverage, and dependency reports for your project, 
 	- [Project Creation](#project-creation)
 	- [Rebranding](#rebranding)
 	- [Managing Your Project](#managing-your-project)
+	- [Project Structure](#project-structure)
 		- [Initial Publish](#initial-publish)
 		- [Development Workflow](#development-workflow)
 		- [NPMJS Updates](#npmjs-updates)
@@ -65,6 +67,41 @@ Use exact searches to perform the following replacements throughout this project
 ## Managing Your Project
 
 Before committing to a project based on this template, it's recommended that you read about [Conventional Commits](https://conventionalcommits.org) and install [Commitizen CLI](http://commitizen.github.io/cz-cli/) globally.
+
+## Project Structure
+
+```bash
+
+	.
+	├── CHANGELOG.md
+	├── .github
+	│   ├── dependabot.yml
+	│   └── workflows
+	│       └── ci.yaml					# CI pipeline
+	├── .gitignore
+	├── .gitpod.yml						# Web IDE Configurations to use GitPod
+	├── .husky							# Git Hooks manager fra>mwork configurstions
+	│   ├── _
+	│   │   ├── .gitignore
+	│   │   └── husky.sh
+	│   └── pre-commit
+	├── LICENSE
+	├── Makefile						# Makefile with main 
+	├── package.json
+	├── package-lock.json
+	├── README.md
+	├── src
+	│   ├── Example.ts
+	│   ├── index.ts					# Main File for the code to run
+	│   └── logger						# Logging layer
+	│       ├── ILogger.ts
+	│       └── Logger.ts
+	├── tests							# Tests folder
+	│   ├── example.test.ts
+	│   └── logger.test.ts
+	└── tsconfig.json
+
+```
 
 ### Initial Publish
 
