@@ -18,6 +18,5 @@ dev:
 	tsc -w
 
 commit-all:
-	git add -A
 	npm run commit
 	git push
