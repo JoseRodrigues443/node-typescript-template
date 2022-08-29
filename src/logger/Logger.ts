@@ -11,11 +11,11 @@ export class Logger implements ILogger {
 
 	}
 
-	info(message: string, params: any = "") {
+	info(message: string, params: any = '') {
 		this._logger.info(message, params)
 	}
 
-	warn(message: string, params: any = "") {
+	warn(message: string, params: any = '') {
 		this._logger.warn(message, params)
 	}
 

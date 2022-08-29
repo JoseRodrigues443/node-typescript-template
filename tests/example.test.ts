@@ -23,7 +23,7 @@ describe('Example class', () => {
 	});
 	it('should allow empty string to exampleMethod()', () => {
 		const example: Example = new Example(mockedLogger);
-		const param = "";
+		const param = '';
 		const returnValue: string = example.exampleMethod(param);
 		expect(returnValue).to.equal(param, 'returns the value passed as a parameter');
 	});
