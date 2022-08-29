@@ -7,13 +7,13 @@
     "template"
   ],
   "author": {
-    "name": "Chris Wells",
-    "url": "https://chriswells.io"
+    "name": "Miguel Rodrigues",
+    "url": "https://joserodrigues443.github.io/"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chriswells0/node-typescript-template.git"
+    "url": "https://github.com/JoseRodrigues443/node-typescript-template.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

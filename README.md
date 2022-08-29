@@ -20,20 +20,22 @@ Once you've enabled CI, test coverage, and dependency reports for your project, 
 
 ## Contents
 
-* [Project Creation](#project-creation)
-* [Rebranding](#rebranding)
-* [Managing Your Project](#managing-your-project)
-    * [Initial Publish](#initial-publish)
-    * [Recommended Development Workflow](#recommended-development-workflow)
-    * [Publishing to NPMJS](#publishing-to-npmjs)
-* [Contributing](#contributing)
+- [Node.js TypeScript Template](#nodejs-typescript-template)
+	- [Contents](#contents)
+	- [Project Creation](#project-creation)
+	- [Rebranding](#rebranding)
+	- [Managing Your Project](#managing-your-project)
+		- [Initial Publish](#initial-publish)
+		- [Development Workflow](#development-workflow)
+		- [NPMJS Updates](#npmjs-updates)
+	- [Contributing](#contributing)
 
 ## Project Creation
 
 Clone this repo into the directory you want to use for your new project, delete the Git history, and then reinit as a fresh Git repo:
 
 ```bash
-$ git clone https://github.com/chriswells0/node-typescript-template.git <your project directory>
+$ git clone https://github.com/JoseRodrigues443/node-typescript-template.git <your project directory>
 $ cd <your project directory>
 $ rm -rf ./.git/
 $ git init
