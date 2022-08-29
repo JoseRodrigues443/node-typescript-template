@@ -5,8 +5,9 @@
 [![Build Status][build-image]][build-url]
 [![Coverage Status][coverage-image]][coverage-url]
 [![Dependencies Status][dependencies-image]][dependencies-url]
-[![Dev Dependencies Status][dev-dependencies-image]][dev-dependencies-url]
-[![Commitizen Friendly][commitizen-image]][commitizen-url]
+[![System CI](https://github.com/JoseRodrigues443/node-typescript-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/JoseRodrigues443/node-typescript-template/actions/workflows/ci.yaml)
+<!-- [![Dev Dependencies Status][dev-dependencies-image]][dev-dependencies-url]
+[![Commitizen Friendly][commitizen-image]][commitizen-url] -->
 
 A complete Node.js project template using TypeScript and following general best practices.  It allows you to skip the tedious details for the following:
 
