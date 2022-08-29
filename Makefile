@@ -10,5 +10,8 @@ clean:
 lint:
 	npm run lint
 
-make run:
+run:
 	npm run console
+
+dev:
+	tsc -w

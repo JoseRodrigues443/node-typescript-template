@@ -21,4 +21,10 @@ describe('Example class', () => {
 		const returnValue: string = example.exampleMethod(param);
 		expect(returnValue).to.equal(param, 'returns the value passed as a parameter');
 	});
+	it('should allow empty string to exampleMethod()', () => {
+		const example: Example = new Example(mockedLogger);
+		const param = "";
+		const returnValue: string = example.exampleMethod(param);
+		expect(returnValue).to.equal(param, 'returns the value passed as a parameter');
+	});
 });
