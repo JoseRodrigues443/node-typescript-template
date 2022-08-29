@@ -53,7 +53,7 @@ Use exact searches to perform the following replacements throughout this project
 
 1. Replace my name with yours: `Miguel Rodrigues`
 2. Replace my website URL with yours: `https://chriswells.io`
-3. Replace my *GitHub* username and project name with yours: `chriswells0/node-typescript-template`
+3. Replace my *GitHub* username and project name with yours: `JoseRodrigues443/node-typescript-template`
 4. Replace my *NPM* project name with yours: `typescript-template`
 5. Update [package.json](package.json):
 	* Change `description` to suit your project.
@@ -111,18 +111,18 @@ Follow these steps to update your NPM package:
 
 This section is here as a reminder for you to explain to your users how to contribute to the projects you create from this template.
 
-[project-url]: https://github.com/chriswells0/node-typescript-template
+[project-url]: https://github.com/JoseRodrigues443/node-typescript-template
 [package-image]: https://badge.fury.io/js/typescript-template.svg
 [package-url]: https://badge.fury.io/js/typescript-template
-[issues-image]: https://img.shields.io/github/issues/chriswells0/node-typescript-template.svg?style=popout
-[issues-url]: https://github.com/chriswells0/node-typescript-template/issues
-[build-image]: https://travis-ci.org/chriswells0/node-typescript-template.svg?branch=master
-[build-url]: https://travis-ci.org/chriswells0/node-typescript-template
-[coverage-image]: https://coveralls.io/repos/github/chriswells0/node-typescript-template/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/chriswells0/node-typescript-template?branch=master
-[dependencies-image]: https://david-dm.org/chriswells0/node-typescript-template/status.svg
-[dependencies-url]: https://david-dm.org/chriswells0/node-typescript-template
-[dev-dependencies-image]: https://david-dm.org/chriswells0/node-typescript-template/dev-status.svg
-[dev-dependencies-url]: https://david-dm.org/chriswells0/node-typescript-template?type=dev
+[issues-image]: https://img.shields.io/github/issues/JoseRodrigues443/node-typescript-template.svg?style=popout
+[issues-url]: https://github.com/JoseRodrigues443/node-typescript-template/issues
+[build-image]: https://travis-ci.org/JoseRodrigues443/node-typescript-template.svg?branch=master
+[build-url]: https://travis-ci.org/JoseRodrigues443/node-typescript-template
+[coverage-image]: https://coveralls.io/repos/github/JoseRodrigues443/node-typescript-template/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/JoseRodrigues443/node-typescript-template?branch=master
+[dependencies-image]: https://david-dm.org/JoseRodrigues443/node-typescript-template/status.svg
+[dependencies-url]: https://david-dm.org/JoseRodrigues443/node-typescript-template
+[dev-dependencies-image]: https://david-dm.org/JoseRodrigues443/node-typescript-template/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/JoseRodrigues443/node-typescript-template?type=dev
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli
