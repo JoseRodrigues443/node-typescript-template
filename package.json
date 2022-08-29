@@ -64,6 +64,7 @@
     }
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "tslog": "^3.3.4"
   }
 }

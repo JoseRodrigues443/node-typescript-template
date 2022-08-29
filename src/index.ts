@@ -1,3 +1,7 @@
+import dotenv from "dotenv"
+
+dotenv.config()
+
 import { Example } from "./Example";
 import { ILogger } from "./logger/ILogger";
 import { Logger } from "./logger/Logger";

@@ -2,6 +2,7 @@ test:
 	npm run test
 
 build:
+	cp .env.template .env
 	npm run build
 
 clean:
