@@ -1,10 +1,10 @@
 # Node.js TypeScript Template
 
-[![Package Version][package-image]][package-url]
-[![Open Issues][issues-image]][issues-url]
-[![Build Status][build-image]][build-url]
-[![Coverage Status][coverage-image]][coverage-url]
-[![Dependencies Status][dependencies-image]][dependencies-url]
+<!-- [![Package Version][package-image]][package-url] -->
+<!-- [![Open Issues][issues-image]][issues-url] -->
+<!-- [![Build Status][build-image]][build-url] -->
+<!-- [![Coverage Status][coverage-image]][coverage-url] -->
+<!-- [![Dependencies Status][dependencies-image]][dependencies-url] -->
 [![System CI](https://github.com/JoseRodrigues443/node-typescript-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/JoseRodrigues443/node-typescript-template/actions/workflows/ci.yaml)
 <!-- [![Dev Dependencies Status][dev-dependencies-image]][dev-dependencies-url]
 [![Commitizen Friendly][commitizen-image]][commitizen-url] -->

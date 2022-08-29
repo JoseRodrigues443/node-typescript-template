@@ -7,9 +7,8 @@ build:
 clean:
 	npm run clean:all
 
-
 lint:
 	npm run lint
 
-console:
-	npx hardhat console
+make run:
+	npm run console

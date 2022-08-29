@@ -1,22 +1,9 @@
-'use strict';
+import { Example } from "./Example";
 
-import { Logger } from 'sitka';
+console.log("Starting...");
 
-export class Example {
-	/* Private Instance Fields */
+const example: Example = new Example();
+const param = 'This is my param.';
+console.log(`Example output: ${example.exampleMethod(param)}`)
 
-	private _logger: Logger;
-
-	/* Constructor */
-
-	constructor() {
-		this._logger = Logger.getLogger({ name: this.constructor.name });
-	}
-
-	/* Public Instance Methods */
-
-	public exampleMethod(param: string): string {
-		this._logger.debug('Received: ' + param);
-		return param;
-	}
-}
+console.log("Ending...");
