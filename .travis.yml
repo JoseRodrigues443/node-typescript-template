@@ -8,6 +8,6 @@ install:
 script:
   - npm run cover:check
 # Node 6 doesn't run prepare after install:
-before_script: "npm run build"
+before_script: "make build"
 # Send test coverage data to Coveralls:
 after_script: "npm run coveralls"

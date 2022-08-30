@@ -2,7 +2,9 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-import { Example } from "./Example";
+import { options } from "./command";
+
+import { Example } from "./example";
 import { ILogger } from "./logger/ILogger";
 import { Logger } from "./logger/Logger";
 
@@ -14,7 +16,7 @@ const logger: ILogger = new Logger();
 logger.info("Starting...");
 
 const example: Example = new Example(logger);
-const param = 'This is my param.';
+const param = options.name ?? 'This is my param.';
 logger.info(`Example output: ${example.exampleMethod(param)}`)
 
 logger.info("Ending...");

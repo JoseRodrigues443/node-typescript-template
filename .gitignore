@@ -6,3 +6,6 @@ node_modules/
 
 # Project files:
 *.sublime-*
+
+# Ignore dotenv
+.env
