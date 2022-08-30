@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import { mock } from 'ts-mockito';
 
 
-import { Example } from '../dist/Example';
+import { Example } from '../dist/example';
 import { ILogger } from '../dist/logger/ILogger';
 
 const mockedLogger: ILogger = mock<ILogger>();
