@@ -7,5 +7,5 @@ node_modules/
 # Project files:
 *.sublime-*
 
-# Ignore dotenv
+# Env Variables
 .env

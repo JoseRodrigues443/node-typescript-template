@@ -17,9 +17,8 @@ run:
 dev:
 	tsc -w
 
-commit-all:
+commit:
 	npm run commit
-	git push
 
 help:
 	npx ts-node src/index.ts -h
